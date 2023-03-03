@@ -34,7 +34,7 @@
             }
             .matter
             {
-                width: 355px;
+                width: 29%;
                 height: 250px;
                 float: left;
                 padding: 25px 30px 25px;
@@ -50,7 +50,7 @@
             {
                 background-color: #413b3b;
                 color: #ffffff;
-                width: 1145px;
+                width: 91%;
                 height: 200px;
                 float: left;
                 padding: 25px 50px 25px;
