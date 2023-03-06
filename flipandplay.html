@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>game</title>
+        <link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+            body
+            {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1.2em;
+            }
+            .flip-card 
+            {
+                background-color: transparent;
+                width: 22%;
+                height: 275px;
+                perspective: 1000px;
+                float: left;
+                margin: 17px;
+            }
+
+            .flip-card-inner 
+            {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 5s;
+                transform-style: preserve-3d;
+                box-shadow: 10px 10px 2px;
+                border: 5px solid #ccc9c9;
+            }
+
+            .flip-card:hover .flip-card-inner 
+            {
+                transform: rotateY(180deg);
+                
+            }
+
+            .flip-card-front, .flip-card-back 
+            {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+            }
+
+            .flip-card-front 
+            {
+                background-color: #bbb;
+                color: black;
+            }
+
+            .flip-card-back 
+            {
+                background-color: #2980b9;
+                color: white;
+                transform: rotateY(180deg);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Flip and Play</h1>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/1.jpg" alt="Avatar" style="width:250px;height:275px;">
+              </div>
+              <div class="flip-card-back">
+                <h2>Sing 1st 2 lines of a song in your own language and  then the same lines in english</h2> 
+              </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/2.jpg" alt="Avatar" style="width:250px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>your crush story</h2> 
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/3.jpg" alt="Avatar" style="width:250px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>dialogue not in your native language</h2> 
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/6.jpg" alt="Avatar" style="width:250px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>pour water in mouth and tell a poem</h2> 
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/7.jpg" alt="Avatar" style="width:250px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Take any sentence and express in different ways</h2> 
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/8.jpg" alt="Avatar" style="width:250px;height: 275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Act like a ghost</h2> 
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/9.jpg" alt="Avatar" style="width:250px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>immitate a person from our team</h2> 
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/10.jpg" alt="Avatar" style="width:250px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>try these expressions</h2> 
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+  
